@@ -26,4 +26,9 @@ for frontend. This app has all the features that are required for any similar ki
 * After placing the order cart gets refreashed and all previous are removed.
 * Logged in users can also view the order history where all the previous orders of that customer are shown.
 
+### Snapshots 
+
+![homePage image](https://github.com/Himanshu0120/E-Commerce-web-appliication/blob/master/ss/home.PNG)
 ![Test Image](https://github.com/Himanshu0120/E-Commerce-web-appliication/blob/master/ss/cart.PNG)
+![homePage image](https://github.com/Himanshu0120/E-Commerce-web-appliication/blob/master/ss/logon.PNG)
+![homePage image](https://github.com/Himanshu0120/E-Commerce-web-appliication/blob/master/ss/order.PNG)
