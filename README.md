@@ -26,3 +26,4 @@ for frontend. This app has all the features that are required for any similar ki
 * After placing the order cart gets refreashed and all previous are removed.
 * Logged in users can also view the order history where all the previous orders of that customer are shown.
 
+![Test Image](ss/cart.png)
