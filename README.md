@@ -29,6 +29,14 @@ for frontend. This app has all the features that are required for any similar ki
 ### Snapshots 
 
 ![homePage image](https://github.com/Himanshu0120/E-Commerce-web-appliication/blob/master/ss/home.PNG)
+![homePage image](https://github.com/Himanshu0120/E-Commerce-web-appliication/blob/master/ss/lgoin.PNG)
 ![Test Image](https://github.com/Himanshu0120/E-Commerce-web-appliication/blob/master/ss/cart.PNG)
-![homePage image](https://github.com/Himanshu0120/E-Commerce-web-appliication/blob/master/ss/logon.PNG)
 ![homePage image](https://github.com/Himanshu0120/E-Commerce-web-appliication/blob/master/ss/order.PNG)
+
+### How to run
+
+* Download or clone the repo.
+* Download all the libraries listed in requirements.txt
+* Goto the directory where the repo is saved and open CMD in that directory
+* Run 'python manage.y runserver' .
+* Open the lnik http://127.0.0.1:8000/ on your browser.
