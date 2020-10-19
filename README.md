@@ -19,3 +19,10 @@ for frontend. This app has all the features that are required for any similar ki
 ### Filtering 
 
 * Products can be filterd on the basis of category of the product. 
+
+### Cart and Order History
+
+* Users can add products to cart and also can go to cart page to check the total price and quantity of items in their cart.
+* After placing the order cart gets refreashed and all previous are removed.
+* Logged in users can also view the order history where all the previous orders of that customer are shown.
+
