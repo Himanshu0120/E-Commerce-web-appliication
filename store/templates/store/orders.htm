@@ -1,0 +1,47 @@
+{% extends 'store/base.htm' %}
+
+{% block content %}
+{% load cart %}
+
+<div class="container">
+    <div class="border rounded p-4 m-4">
+        <h3>Your Orders</h3>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Image</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Date</th>
+                    <th>Status</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                {% for order in orders %}
+                <tr>
+
+                    <td scope="row">{{order.product.name}}</td>
+                    <td><img src={{order.product.image.url}}  height="80px" alt=""></td>
+                    <td>Rs {{order.price}}</td>
+                    <td>{{order.quantity}}</td>
+                    <td>{{order.date}}</td>
+                    {% if order.status %}
+                    <td class="badge badge-sucess">Shipped</td>
+                    {%else%}
+                    <td>Pending</td>
+                    {%endif%}
+                </tr>
+              {% endfor %}
+            </tbody>
+           
+        </table>
+        
+    </div>
+</div>
+
+
+  
+
+{% endblock %}
